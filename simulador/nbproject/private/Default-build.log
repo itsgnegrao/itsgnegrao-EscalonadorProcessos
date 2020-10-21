@@ -1,0 +1,10 @@
+gcc eventos.c -c -O0  -ggdb
+gcc politicas.c -c -O0  -ggdb
+gcc arq_processos.c -c -O0  -ggdb
+gcc arq_experimento.c -c -O0  -ggdb
+gcc bcp.c -c -O0  -ggdb
+gcc bcpList.c -c -O0  -ggdb
+gcc intList.c -c -O0  -ggdb
+gcc arq_saida.c -c -O0  -ggdb
+gcc simulador.c -c -O0  -ggdb
+gcc simulador.o intList.c eventos.o politicas.o arq_processos.o arq_experimento.o bcp.o bcpList.o arq_saida.o -o simulador 
